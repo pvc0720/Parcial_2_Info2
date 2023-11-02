@@ -38,9 +38,13 @@ void Game::play() {
             // Pedir al jugador actual que realice un movimiento
             cout << "Turno de " << currentPlayer->getName() << " (" << currentPlayerColor << ")." << endl;
             int row, col;
+            char colLabel; // Agregar una variable para la etiqueta de la columna
+
             do {
-                cout << "Ingrese la fila (0-7) y columna (0-7) separadas por espacio: ";
-                cin >> row >> col;
+                cout << "Ingrese la fila (1-8) y columna (a-h) separadas por espacio: "; // Cambiar las instrucciones para incluir letras
+                cin >> row >> colLabel;
+                col = colLabel - 'a'; // Convierte la letra en un índice de columna
+                row--; // Convierte la fila de 1-8 a 0-7
             } while (!board.isValidMove(row, col, currentPlayerColor));
 
             // Realizar el movimiento
@@ -75,6 +79,7 @@ void Game::play() {
     }
 }
 
+
 Player Game::getWinner() const {
     // Determina al ganador y retorna al jugador con más fichas al final del juego
     int player1Score = player1.getScore();
@@ -88,4 +93,3 @@ Player Game::getWinner() const {
         return Player("Empate", ' ');
     }
 }
-

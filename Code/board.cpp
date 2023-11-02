@@ -100,12 +100,13 @@ void Board::makeMove(int row, int col, char color) {
 }
 
 void Board::displayBoard() const {
-    cout << "  0 1 2 3 4 5 6 7" << endl;
+    cout << "   a  b  c  d  e  f  g  h" << endl;
     for (int i = 0; i < 8; i++) {
-        cout << i << " ";
+        cout << i + 1 << " ";
         for (int j = 0; j < 8; j++) {
             cout << "[" << board[i][j] << "]";
         }
         cout << endl;
     }
 }
+
