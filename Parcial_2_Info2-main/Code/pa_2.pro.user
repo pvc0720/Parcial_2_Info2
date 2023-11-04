@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
+<<<<<<< HEAD:Parcial_2_Info2-main/Code/pa_2.pro.user
 <!-- Written by QtCreator 7.0.2, 2023-11-03T20:49:38. -->
+=======
+<!-- Written by QtCreator 11.0.2, 2023-11-02T11:21:25. -->
+>>>>>>> 0ce348b009a393a28378b742a7377da0d47c738d:Code/pa_2.pro.user
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -240,9 +244,16 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+<<<<<<< HEAD:Parcial_2_Info2-main/Code/pa_2.pro.user
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/User´s/Downloads/Parcial Info/Parcial_2_Info2-main/Code/pa_2.pro</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/User´s/Downloads/Parcial Info/Parcial_2_Info2-main/Code/pa_2.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+=======
+    <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">pa_22</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/USUARIO/Desktop/C++/Parcial_2_Info2/Code/pa_2.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/USUARIO/Desktop/C++/Parcial_2_Info2/Code/pa_2.pro</value>
+>>>>>>> 0ce348b009a393a28378b742a7377da0d47c738d:Code/pa_2.pro.user
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>

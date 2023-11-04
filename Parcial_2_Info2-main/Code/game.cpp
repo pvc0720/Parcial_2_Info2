@@ -43,6 +43,7 @@ void Game::play() {
             char colLabel; // Agregar una variable para la etiqueta de la columna
 
             do {
+<<<<<<< HEAD:Parcial_2_Info2-main/Code/game.cpp
                 cout << "Ingrese la fila (1-8) y columna (a-h) separadas por espacio: ";
 
                            // Manejo de excepciones para formato inadecuado
@@ -63,6 +64,12 @@ void Game::play() {
                 if(!board.isValidMove(row,col,currentPlayerColor))
                     cout<<"El movimiento ingresado no es invalido, ingrese otro para el color "<<currentPlayerColor<<endl;
 
+=======
+                cout << "Ingrese la fila (1-8) y columna (a-h) separadas por espacio: "; // Cambiar las instrucciones para incluir letras
+                cin >> row >> colLabel;
+                col = colLabel - 'a'; // Convierte la letra en un índice de columna
+                row--; // Convierte la fila de 1-8 a 0-7
+>>>>>>> 0ce348b009a393a28378b742a7377da0d47c738d:Code/game.cpp
             } while (!board.isValidMove(row, col, currentPlayerColor));
 
             // Realizar el movimiento
